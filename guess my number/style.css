@@ -6,6 +6,18 @@
 body {
   background-color: black;
 }
+#again {
+  cursor: pointer;
+  border: solid white 0.2rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: rgb(61, 59, 59);
+  margin-left: 5rem;
+  float: left;
+  font-family: "Press Start 2P", cursive;
+  padding: 0.8rem;
+  width: 10rem;
+}
 #gif {
   float: right;
   height: 12rem;
@@ -80,7 +92,7 @@ body {
   background-color: rgb(32, 31, 31);
 }
 .kontenjer .div2 {
-  width: 1%;
+  width: 50%;
   background-color: white;
 }
 .score {
