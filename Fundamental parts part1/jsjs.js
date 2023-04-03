@@ -87,9 +87,47 @@
 
 // console.log(now - 1991 > now - 2020);
 
-let x, y;
-x = y = 25 - 10 - 5;
-console.log(x, y);
+// let x, y;
+// x = y = 25 - 10 - 5;
+// console.log(x, y);
 
-const averageAge = 30 + 27 / 2;
-console.log(averageAge);
+// const averageAge = 30 + 27 / 2;
+// console.log(averageAge);
+
+//1st codding challenge.
+
+// const masamarkova = 75;
+// const visinamarkova = 1.69;
+// const masadzonova = 92;
+// const visinadzonova = 1.95;
+
+// const BMImarkova = masamarkova / Math.pow(visinamarkova, 2);
+// const BMIdzonova = masadzonova / Math.pow(visinadzonova, 2);
+// console.log(BMImarkova);
+// console.log(BMIdzonova);
+// const markovaveca = BMImarkova > BMIdzonova;
+// console.log(markovaveca);
+
+//strings
+
+const firstName = `Jonas`;
+const job = "teacher";
+const birthYear = 1991;
+const year = 2037;
+
+const jonas =
+  "I'm " +
+  firstName +
+  ", a " +
+  (year - birthYear) +
+  " years old,and he is a " +
+  job +
+  "!";
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName},a ${year - birthYear} year old ${job}.`;
+console.log(jonasNew);
+
+console.log(`Just a regular string..`);
+
+console.log(`String \n\ multiple \n\ lines`);

@@ -57,6 +57,7 @@ let h3 = document.getElementsByTagName("h3");
 let p = document.getElementsByTagName("p");
 let naslov = document.getElementById("naslovcina");
 let doleinput = document.getElementById("kontainer");
+let inputt = document.getElementById("userinput");
 console.log(background1);
 console.log(background2);
 
@@ -70,6 +71,11 @@ background1.addEventListener("click", function (e) {
   });
   naslov.style.backgroundColor = "rgb(61, 59, 59)";
   doleinput.style.backgroundColor = "rgb(61, 59, 59)";
+  again.style.color = "white";
+  again.style.border = "solid white 0.2rem";
+  doleinput.style.color = "white";
+  dugme.style.color = "white";
+  inputt.style.color = "black";
 });
 
 background2.addEventListener("click", function () {
@@ -82,4 +88,10 @@ background2.addEventListener("click", function () {
   });
   naslov.style.backgroundColor = "rgb(61, 59, 59)";
   doleinput.style.backgroundColor = "rgb(61, 59, 59)";
+  again.style.color = "black";
+  again.style.border = "solid black 0.2rem";
+  doleinput.style.color = "black";
+  dugme.style.color = "black";
+  inputt.style.color = "white";
+  inputt.style.backgroundColor = "black";
 });
