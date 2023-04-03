@@ -96,38 +96,115 @@
 
 //1st codding challenge.
 
-// const masamarkova = 75;
-// const visinamarkova = 1.69;
-// const masadzonova = 92;
-// const visinadzonova = 1.95;
+// // const masamarkova = 75;
+// // const visinamarkova = 1.69;
+// // const masadzonova = 92;
+// // const visinadzonova = 1.95;
 
-// const BMImarkova = masamarkova / Math.pow(visinamarkova, 2);
-// const BMIdzonova = masadzonova / Math.pow(visinadzonova, 2);
-// console.log(BMImarkova);
-// console.log(BMIdzonova);
-// const markovaveca = BMImarkova > BMIdzonova;
-// console.log(markovaveca);
+// // const BMImarkova = masamarkova / Math.pow(visinamarkova, 2);
+// // const BMIdzonova = masadzonova / Math.pow(visinadzonova, 2);
+// // console.log(BMImarkova);
+// // console.log(BMIdzonova);
+// // const markovaveca = BMImarkova > BMIdzonova;
+// // console.log(markovaveca);
 
-//strings
+// //strings
 
-const firstName = `Jonas`;
-const job = "teacher";
-const birthYear = 1991;
-const year = 2037;
+// const firstName = `Jonas`;
+// const job = "teacher";
+// const birthYear = 1991;
+// const year = 2037;
 
-const jonas =
-  "I'm " +
-  firstName +
-  ", a " +
-  (year - birthYear) +
-  " years old,and he is a " +
-  job +
-  "!";
-console.log(jonas);
+// const jonas =
+//   "I'm " +
+//   firstName +
+//   ", a " +
+//   (year - birthYear) +
+//   " years old,and he is a " +
+//   job +
+//   "!";
+// console.log(jonas);
 
-const jonasNew = `I'm ${firstName},a ${year - birthYear} year old ${job}.`;
-console.log(jonasNew);
+// const jonasNew = `I'm ${firstName},a ${year - birthYear} year old ${job}.`;
+// console.log(jonasNew);
 
-console.log(`Just a regular string..`);
+// console.log(`Just a regular string..`);
 
-console.log(`String \n\ multiple \n\ lines`);
+// console.log(`String \n\ multiple \n\ lines`);
+
+//if & else
+
+// const age = 15;
+
+// if (age >= 18) {
+//   console.log(`Sara can start driving licence!`);
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(`Sara is too young.Wait another ${yearsLeft} years!`);
+// }
+
+// const birthYear = 1991;
+// if (birthYear <= 2000) {
+//   let century = 20;
+// } else {
+//   let century = 21;
+// }
+
+//2nd coding challange
+
+// const markovamasa = 75;
+// const markovavisina = 1.75;
+
+// const dzonovamasa = 92;
+// const dzonovavisina = 1.93;
+
+// const BMImarko = markovamasa / Math.pow(markovavisina, 2);
+// const BMIdzon = dzonovamasa / Math.pow(dzonovavisina, 2);
+
+// if (BMImarko > BMIdzon) {
+//   console.log(
+//     `Markov BMI koji iznosi ${BMImarko} je veci od Dzonovog BMI koji iznosi ${BMIdzon}.`
+//   );
+// } else if (BMImarko == BMIdzon) {
+//   console.log(`Njihovi BMI-ovi su jednaki!`);
+// } else {
+//   console.log(
+//     `Dzonov BMI koji iznosi ${BMIdzon} je veci od Markovog BMI koji iznosi ${BMImarko}`
+//   );
+// }
+
+// // type conversion // //
+
+// const inputYear = `1991`;
+// console.log(Number(inputYear));
+// console.log(+inputYear + 18);
+
+// console.log(Number("Jonas"));
+// console.log(typeof NaN);
+
+// console.log(String(23));
+// //type coercion//kad je u pitanju string i broj a izmedju + uvek se konverta broj u string-toString()-automatski.
+// console.log(`I am ` + 23 + ` years old`);
+// console.log(`23` - `10` - 3);
+
+//FALSY VALUES//
+
+//5 falsy values:0,"",undefined,null,NaN
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Jonas"));
+console.log(Boolean({}));
+
+const money = 100;
+if (money) {
+  console.log("Don`t spend it All!;)");
+} else {
+  console.log("You should get a job!");
+}
+let height = 123;
+if (height) {
+  console.log(`YAY height is defined!`);
+} else {
+  console.log(`Height is UNDEFINED!`);
+}
