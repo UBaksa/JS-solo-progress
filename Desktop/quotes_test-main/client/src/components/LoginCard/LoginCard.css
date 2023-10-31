@@ -1,0 +1,70 @@
+.card {
+  opacity: 95%;
+  border-radius: 2rem;
+  font-family: dosis;
+  margin: auto;
+  background-color: gainsboro;
+  width: 35rem;
+  height: 36rem;
+}
+.naslov {
+  padding: 2rem;
+  color: rgb(131, 130, 130);
+  text-align: center;
+}
+.quotes {
+  color: rgb(0, 0, 0);
+}
+@font-face {
+  font-family: dosis;
+  src: url("../../../public/fonts/Dosis-Bold.ttf");
+}
+form .imeiprezime,
+.sifra,
+button {
+  margin: auto;
+}
+form {
+  border-radius: 1rem;
+  border: 4px solid gray;
+  padding: auto;
+  background-color: rgb(189, 186, 186);
+  margin: auto;
+  width: 25rem;
+  height: 25rem;
+  box-shadow: 3px 2px 5px 4px rgb(36, 36, 36);
+}
+.imeiprezime {
+  font-family: dosis;
+  font-size: 1.5rem;
+  padding-top: 5rem;
+  width: 40%;
+  height: 20%;
+}
+.imeiprezime input {
+  border-radius: 0.5rem;
+  width: 10rem;
+  height: 2rem;
+}
+.sifra input {
+  border-radius: 0.5rem;
+  width: 10rem;
+  height: 2rem;
+}
+.sifra {
+  font-family: dosis;
+  margin-bottom: 6rem;
+  font-size: 1.5rem;
+  padding-top: 5rem;
+  width: 40%;
+  height: 20%;
+}
+button {
+  cursor: default;
+  font-size: 1.2rem;
+  font-family: dosis;
+  border-radius: 1rem;
+  margin-left: 8rem;
+  width: 8rem;
+  height: 3rem;
+}
