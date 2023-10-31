@@ -69,9 +69,7 @@ export default function LoginCard() {
             required
           ></input>
         </div>
-        <button onClick={refresh} type="submit">
-          Log in
-        </button>
+        <button type="submit">Log in</button>
       </form>
     </div>
   );
